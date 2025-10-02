@@ -1,0 +1,29 @@
+# Global ignore rules for the workspace
+# Applies to both design-patterns-demo/ and virtual-classroom-manager/
+
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+.out/
+.next/
+.tmp/
+.temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+.jest-cache/
+.jest/
+
+# Logs
+logs/
+*.log
+# Env files
+.env
+.env.*
+
